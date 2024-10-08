@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -43,6 +46,10 @@ button {
     background-color: #292525;
     color: white;
     font-size: 15px;
-    padding: 10px 20px;
     cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 25px;
 }
