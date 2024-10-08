@@ -24,7 +24,7 @@ function calculateBmi() {
         result.innerText = `Normal: ${bmi}`;
     } else if (bmi >= 25 && bmi < 29.9) {
         result.innerText = `Over Weight: ${bmi}`;
-    } else if (bbmi >= 30 && bmi < 34.9) {
+    } else if (bmi >= 30 && bmi < 34.9) {
         result.innerText = `Obesity (Class I): ${bmi}`;
     } else if (bmi >= 35.5 && bmi < 39.9) {
         result.innerText = `Obesity (Class II): ${bmi}`;
