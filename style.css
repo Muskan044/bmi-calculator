@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+    width: 400px;
+    box-shadow: 0px 0px 50px 5px #000;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    width: 100%;
+}
