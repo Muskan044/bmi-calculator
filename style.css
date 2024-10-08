@@ -24,7 +24,7 @@ h1 {
 
 input {
     border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #292525;
     width: 50%;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -35,5 +35,14 @@ input {
 }
 
 button {
-    width: 100%;
+    width: 70%;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #292525;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
